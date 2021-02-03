@@ -1,3 +1,6 @@
+#Data Structur: Array
+#Print sub array with sum of elements as the given sum
+
 def subArraySum(arr,n,s):
     for k in range(n):
         for i in range(n - k + 1):
